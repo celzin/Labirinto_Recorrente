@@ -22,7 +22,7 @@
 </div>
 
 <p align="center">
-<img src="imgs/esboço.png" width="500"/> 
+<img src="imgs/a.png" width="500"/> 
 </p>
 <p align="center">
 <em>Imagem 1: Esquema do labirinto.</em>
