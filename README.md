@@ -13,22 +13,22 @@
 <div align="justify">
      
 1️⃣ Um garoto se encontra perdido em um labirinto, o qual é compreendido por nós como sendo uma matriz cujas posição de sua localização é dada por um valor (x, y) dessa estrutura. Nesse labirinto há: 
-  - <b>🚧 Paredes (#)</b> (bloqueiam certos passos);
+  - <b>🚧 Paredes (#)</b> => | bloqueiam certos passos |
     - não há muito o que fazer contra elas a não ser desviar e continuar a rota
-  - <b>💣 Perigos (*)</b> (consomem parte de sua vida); 
+  - <b>💣 Perigos (*)</b> => | consomem parte de sua vida |
     - a cada passada, é subtraído 1 de vida (-💔);
     - ao ficar sem pontos de vida o algoritmo deve parar e indicar fim de jogo;
     - os perigos são estáticos, não somem de lugar depois de serem caminhados.
-  - <b>🛣️ Trajetórias</b> (valores positivos que devem ser subtraídos em 1 a cada passagem).
+  - <b>🛣️ Trajetórias</b> => | valores positivos que devem ser subtraídos em 1 a cada passagem |
     - caso o valor da casa seja 0 não existem itens para serem consumidos e não é feito nada;
     - a regra para os "portais" é de escolha do aluno;
     - não é possível se "teletransportar" diretamente para uma parede em outra matriz; 
     - não é possível startar em um "portal" e já se teletransportar;
     - é possível percorrer uma matriz mais de uma vez.
-  - <b>Vida</b>
+  - <b>Vida 💖</b> 
     - o máximo de vidas é 10;
     - caso jogador obtenha 4 itens estando com o máximo de vida a quantidade de itens é zerada.
-  - <b>Itens</b> 
+  - <b>Itens 💰🪙</b>
     - cada casa possui um valor (0 - 10) que consiste diretamente no quantidade de itens que possui;
     - caso a casa possua o valor 0 ela não possui itens.
 </div>
