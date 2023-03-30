@@ -25,19 +25,19 @@
     - não é possível se "teletransportar" diretamente para uma parede em outra matriz; 
     - não é possível startar em um "portal" e já se teletransportar;
     - é possível percorrer uma matriz mais de uma vez.
-  - <b>Vida 💖</b> 
+  - <b>💖 Vida</b> 
     - o máximo de vidas é 10;
     - caso jogador obtenha 4 itens estando com o máximo de vida a quantidade de itens é zerada.
-  - <b>Itens 💰</b>
+  - <b>💰 Itens</b>
     - cada casa possui um valor (0 - 10) que consiste diretamente no quantidade de itens que possui;
     - caso a casa possua o valor 0 ela não possui itens.
 </div>
 
 <p align="center">
-<img src="imgs/esboço.png" width="500"/> 
+<img src="imgs/esboço.png" width="700"/> 
 </p>
 <p align="center">
-<em>Imagem 1: Esquema do labirinto.</em>
+<em>Imagem 1: Imagem representativa do labirinto.</em>
 </p>
 
 <div align="justify">
