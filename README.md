@@ -14,7 +14,7 @@
      
 1️⃣ Um garoto se encontra perdido em um labirinto, o qual é compreendido por nós como sendo uma matriz cujas posição de sua localização é dada por um valor (x, y) dessa estrutura. Nesse labirinto há: 
   - <b>🚧 Paredes (#)</b> => | bloqueiam certos passos |
-    - não há muito o que fazer contra elas a não ser desviar e continuar a rota
+    - não há muito o que fazer contra elas a não ser desviar e continuar a rota.
   - <b>💣 Perigos (*)</b> => | consomem parte de sua vida |
     - a cada passada, é subtraído 1 de vida (-💔) e os itens são zerados (-💰);
     - ao ficar sem pontos de vida o algoritmo deve parar e indicar fim de jogo;
