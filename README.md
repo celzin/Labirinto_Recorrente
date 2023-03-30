@@ -29,7 +29,7 @@
     - o máximo de vidas é 10;
     - caso jogador obtenha 4 itens estando com o máximo de vida a quantidade de itens é zerada.
   - <b>Itens</b> 
-    - cada casa possui um valor que consiste diretamente no quantidade de itens que possui;
+    - cada casa possui um valor (0 - 10) que consiste diretamente no quantidade de itens que possui;
     - caso a casa possua o valor 0 ela não possui itens.
 </div>
 
