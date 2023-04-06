@@ -41,6 +41,13 @@
 <em>Imagem 1: Imagem representativa do labirinto.</em>
 </p>
 
+<p align="center">
+<img src="imgs/esboço2.png" width="700"/> 
+</p>
+<p align="center">
+<em>Imagem 2: Imagem representativa das possíveis ações no labirinto.</em>
+</p>
+
 <div align="justify">
 2️⃣ Ao decorrer do jogo, a cada passo correto sob uma estrada, o garoto consome um item, subtraindo esse do valor que compõe a posição (x, y). Gravando nessa o valor resultante. A cada subtração bem sucedida é preciso, essa vai para um banco de vida que cheio (a cada 4 ações bem sucedidas) lhe retorna 1 de vida em seu contador. Contudo, pode haver partes do caminho com zero itens, esses devem continuar sendo utilizados, porém, sem computar pontuação.
 
