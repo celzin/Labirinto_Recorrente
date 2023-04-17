@@ -55,7 +55,7 @@
 
 <div align="justify">
 
-2️⃣ Ao decorrer do jogo, a cada passo correto sob uma estrada, o garoto consome um item, subtraindo esse do valor que compõe a posição (x, y). Gravando nessa o valor resultante. A cada subtração bem sucedida é preciso, essa vai para um banco de vida que cheio (a cada 4 ações bem sucedidas) lhe retorna 1 de vida em seu contador. Contudo, pode haver partes do caminho com zero itens, esses devem continuar sendo utilizados, porém, sem computar pontuação.
+2️⃣ O jogador começa o jogo com um número determinado de vidas e deve percorrer a matriz de forma aleatória. A cada movimento, o jogador pode se deslocar para uma das oito direções possíveis (cima, baixo, esquerda, direita, diagonal cima esquerda, diagonal cima direita, diagonal baixo esquerda, diagonal baixo direita) desde que a nova posição não seja uma parede. Ao passar por uma posição que contenha um item, o jogador coleta o item e diminui em 1 a quantidade de itens daquela posição. Caso o jogador perca todas as suas vidas, o jogo acaba e é salvo um arquivo com os dados da jogada.
 
 </div>
 
@@ -95,7 +95,6 @@ O código contém algumas funções principais:
   - A função <code>readCheckpoint</code> é responsável por ler as informações salvas no último arquivo de checkpoint criado para a matriz.
   - A função <code>readCheckpointEspelho</code> é responsável por ler as informações salvas no último arquivo de checkpoint criado para a matriz de espelho.
   - A função <code>percorrerMatriz</code> recebe como argumentos um ponteiro para um objeto do tipo <code>Dados</code>, um ponteiro para um objeto do tipo <code>Espelho</code>, e três ponteiros inteiros que armazenam, respectivamente, a quantidade de itens coletados, a quantidade de perigos encontrados e a quantidade de vidas ganhas pelo jogador. A função é responsável por executar o loop principal do jogo, onde a cada iteração é gerado um número aleatório que indica a direção do próximo movimento do jogador. Dependendo da direção escolhida, o jogador pode se mover para uma nova posição na matriz, coletar itens, perder vidas, ou ser teleportado para um novo checkpoint na matriz. A cada iteração do loop, a função também atualiza a posição do jogador na matriz, verifica se o jogo acabou e, caso necessário, salva os dados da jogada em arquivos.
-   - Por fim, a função <code>printMatriz</code> recebe um objeto do tipo <code>Dados</code> como argumento e imprime na tela a matriz atual, a quantidade de vidas do jogador e a posição atual do jogador na matriz.
   - Ao final são gerados dois arquivos de saída <code>output.data</code> e <code>relatorio.data</code>, onde são mostrados, respectivamente, o caminho percorrido pelo jogador na matriz, juntamente com sua quantidade de vida, entre outros aspectos e os resultados de casas percorridas e não percorridas, perigos enfrentados e itens consumidos.
 </div>
 
