@@ -104,6 +104,8 @@ A função readCheckpointEspelho abre um arquivo de checkpoint e realiza a leitu
 
 Em resumo, o custo computacional do código acima é dominado pelas funções readFile e readCheckpoint, que possuem complexidade linear em relação ao tamanho dos arquivos de entrada. As outras funções possuem custo linear em relação ao tamanho da string de entrada. O código não apresenta laços ou estruturas de repetição que aumentam o custo computacional.
 
+O código possui algumas operações que se repetem com frequência, como a leitura e escrita de checkpoints e espelhos, o que pode torná-lo lento, dependendo do tamanho da matriz. Além disso, o loop while que percorre a matriz também pode aumentar significativamente o tempo de execução. No entanto, é difícil fazer uma análise mais precisa do custo computacional do código sem saber o tamanho da matriz e outros detalhes sobre a implementação.
+
 # 🔄 Compilação e Execução
 
 <p align="justify">
