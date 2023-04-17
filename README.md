@@ -44,7 +44,7 @@
 </div>
 
 <p align="center">
-<img src="imgs/esboço.png" width="700"/> 
+<img src="imgs/esboço2.png" width="700"/> 
 </p>
 <p align="center">
 <em>Imagem 1: Imagem representativa do labirinto e seus componentes.</em>
@@ -57,7 +57,7 @@
 </div>
 
 <p align="center">
-<img src="imgs/esboço2.png" width="700"/> 
+<img src="imgs/esboço3.png" width="700"/> 
 </p>
 <p align="center">
 <em>Imagem 2: Imagem representativa das possíveis ações no labirinto.</em>
