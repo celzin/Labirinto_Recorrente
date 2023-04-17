@@ -40,7 +40,7 @@
     - caso a casa possua o valor 0 ela não possui itens.
   - <b>🌀 Portais:</b>
     - ***as EXTREMIDADES da ESQUERDA (círculo laranja) e da DIREITA (círculo azul) funcionam como "portais"***;
-    - ao saltar em um portal o jogador é teleportado para um lugar aleatório de outra matriz (com exceção de paredes);
+    - ao saltar em um portal o jogador é teleportado para um lugar aleatório de outra matriz (evitando paredes no salto);
     - ao chegar na extremidade esquerda o jogador volta para a matriz anterior;
     - ao chegar na extremidade direita o jogador avança para a matriz posterior;
     - caso esteja na primeira matriz e encoste na extremidade esquerda o jogador pula para a última matriz;
