@@ -89,9 +89,13 @@
 <div align="justify">
 O código contém algumas funções principais:
   
-  - A função <code>printMatriz</code> recebe um objeto do tipo <code>Dados</code> como argumento e imprime na tela a matriz atual, a quantidade de vidas do jogador e a posição atual do jogador na matriz.
+  - A função <code>tokenizarMatriz</code> é responsável por separar os valores da matriz em tokens, utilizando o delimitador espaço (" "). Dependendo do valor do token, é atribuído um valor numérico correspondente a cada elemento da matriz. Se a matriz passada como argumento for um espelho, a função também atribui valores aos elementos da matriz de espelho.
+  - A função <code>tokenizarLinha</code> é responsável por separar os valores da primeira linha do arquivo em tokens, utilizando o mesmo delimitador espaço (" "). Esses valores representam o número de linhas e colunas da matriz.
+  - A função <code>readFile</code> é responsável por abrir o arquivo com as matrizes e ler suas informações. A função utiliza a função <code>fgets</code> para ler cada linha do arquivo e passa cada linha como parâmetro para as funções <code>tokenizarLinha</code> e <code>tokenizarMatriz</code>, conforme necessário. A função também cria arquivos de checkpoint para salvar as informações lidas.
+  - A função <code>readCheckpoint</code> é responsável por ler as informações salvas no último arquivo de checkpoint criado para a matriz.
+A função readCheckpointEspelho é responsável por ler as informações salvas no último arquivo de checkpoint criado para a matriz de espelho.
+ - A função <code>printMatriz</code> recebe um objeto do tipo <code>Dados</code> como argumento e imprime na tela a matriz atual, a quantidade de vidas do jogador e a posição atual do jogador na matriz.
   - A função <code>percorrerMatriz</code> recebe como argumentos um ponteiro para um objeto do tipo <code>Dados</code>, um ponteiro para um objeto do tipo <code>Espelho</code>, e três ponteiros inteiros que armazenam, respectivamente, a quantidade de itens coletados, a quantidade de perigos encontrados e a quantidade de vidas ganhas pelo jogador. A função é responsável por executar o loop principal do jogo, onde a cada iteração é gerado um número aleatório que indica a direção do próximo movimento do jogador. Dependendo da direção escolhida, o jogador pode se mover para uma nova posição na matriz, coletar itens, perder vidas, ou ser teleportado para um novo checkpoint na matriz. A cada iteração do loop, a função também atualiza a posição do jogador na matriz, verifica se o jogo acabou e, caso necessário, salva os dados da jogada em arquivos.
-
 
 </div>
 
