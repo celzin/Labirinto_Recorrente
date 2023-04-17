@@ -105,7 +105,7 @@ O código contém algumas funções principais que regem funcionamento do progra
 
 <div align="justify">
   
-  Em relação ao custo computacional, alguns pontos devem ser destacados. A função contém um loop principal que é executado até que o personagem alcance a borda da matriz. Dentro desse loop, há uma estrutura de controle de fluxo <code>switch-case</code> que seleciona a próxima posição do personagem. Além disso, a função contém várias verificações condicionais para evitar que o personagem ultrapasse a borda da matriz ou colida com obstáculos. Essas operações possuem complexidade O(1), ou seja, são operações simples que possuem um tempo de execução constante.
+  Em relação ao custo computacional, alguns pontos devem ser destacados. A função <code>percorrerMatriz</code> contém um loop principal que é executado até que o personagem alcance a borda da matriz. Dentro desse loop, há uma estrutura de controle de fluxo <code>switch-case</code> que seleciona a próxima posição do personagem. Além disso, a função contém várias verificações condicionais para evitar que o personagem ultrapasse a borda da matriz ou colida com obstáculos. Essas operações possuem complexidade O(1), ou seja, são operações simples que possuem um tempo de execução constante.
 
   No entanto, a função também possui algumas operações que possuem uma complexidade maior. A leitura e escrita de arquivos, que são realizadas pelas funções <code>readCheckpoint</code>, <code>createCheckpoint</code>, <code>readCheckpointEspelho</code> e <code>createCheckpointEspelho</code>, possuem um custo computacional que depende do tamanho dos arquivos envolvidos. Como não sabemos o tamanho exato desses arquivos, não é possível determinar o custo computacional dessas operações.
 
