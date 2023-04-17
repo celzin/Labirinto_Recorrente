@@ -57,7 +57,7 @@
 </div>
 
 <p align="center">
-<img src="imgs/esboço3.png" width="700"/> 
+<img src="imgs/esboço3.png" width=""/> 
 </p>
 <p align="center">
 <em>Imagem 2: Imagem representativa das possíveis ações no labirinto.</em>
