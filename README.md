@@ -12,7 +12,10 @@
 # ⚠️ Apresentação do Problema 
 <div align="justify">
      
-1️⃣ Um garoto se encontra perdido em um labirinto, o qual é compreendido por nós como sendo uma matriz cujas posição de sua localização é dada por um valor (x, y) dessa estrutura. Nesse labirinto há: 
+1️⃣ Um garoto se encontra perdido em um labirinto, o qual é compreendido por nós como sendo uma matriz cujas posição de sua localização é dada por um valor (x, y) dessa estrutura. À frente é mostrado o que há nesse labirinto, juntamente com uma imagem ilustrativa a fim de proporcionar um melhor entendimento.
+  
+### Componentes do labirinto
+  
   - <b>🚧 Paredes (#)</b> => | bloqueiam certos passos |
     - não há muito o que fazer contra elas a não ser desviar e continuar a rota.
   - <b>💣 Perigos (*)</b> => | consomem parte de sua vida |
