@@ -87,7 +87,7 @@
 # 💡 Solução do Problema
 
 <div align="justify">
-O código contém algumas funções principais:
+O código contém algumas funções principais que regem funcionamento do programa, sendo elas:
   
   - A função <code>tokenizarMatriz</code> é responsável por separar os valores da matriz em tokens, utilizando o delimitador espaço (" "). Dependendo do valor do token, é atribuído um valor numérico correspondente a cada elemento da matriz. Se a matriz passada como argumento for um espelho, a função também atribui valores aos elementos da matriz de espelho.
   - Seguindo essa ideia, a função <code>tokenizarLinha</code> é responsável por separar os valores da primeira linha do arquivo em tokens, utilizando o mesmo delimitador espaço (" "). Esses valores representam o número de linhas e colunas da matriz.
