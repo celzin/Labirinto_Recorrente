@@ -101,7 +101,21 @@ A função readCheckpointEspelho é responsável por ler as informações salvas
 
 # 🎯 Conclusão
 
-❓ Qual o custo computacional da sua estratégia randômica? Se mostrou uma boa alternativa de execução?
+### ❓ Qual o custo computacional ❓ É uma solução viável ❓
+
+<div align="justify">
+  
+  Em relação ao custo computacional, alguns pontos devem ser destacados. A função contém um loop principal que é executado até que o personagem alcance a borda da matriz. Dentro desse loop, há uma estrutura de controle de fluxo <code>switch-case</code> que seleciona a próxima posição do personagem. Além disso, a função contém várias verificações condicionais para evitar que o personagem ultrapasse a borda da matriz ou colida com obstáculos. Essas operações possuem complexidade O(1), ou seja, são operações simples que possuem um tempo de execução constante.
+
+  No entanto, a função também possui algumas operações que possuem uma complexidade maior. A leitura e escrita de arquivos, que são realizadas pelas funções <code>readCheckpoint</code>, <code>createCheckpoint</code>, <code>readCheckpointEspelho</code> e <code>createCheckpointEspelho</code>, possuem um custo computacional que depende do tamanho dos arquivos envolvidos. Como não sabemos o tamanho desses arquivos, não é possível determinar o custo computacional dessas operações.
+
+  Além disso, a função contém um loop <code>while</code> que é executado até que o jogo termine. Dentro desse loop, há uma verificação condicional que testa se o personagem colidiu com um obstáculo. Caso isso aconteça, é verificado se o personagem ainda possui vidas. Se sim, a posição do personagem é reiniciada e o jogo continua. Caso contrário, o jogo é encerrado. Essa verificação é feita a cada iteração do loop, o que pode aumentar o tempo de execução da função.
+  
+  Portanto, o custo computacional da função <code>percorrerMatriz</code> pode ser considerado moderado, com operações simples e operações mais complexas que podem aumentar o tempo de execução dependendo do tamanho dos arquivos envolvidos e do número de iterações do loop <code>while</code>.
+
+  Em geral, o custo computacional dessas funções é bastante razoável, já que elas realizam operações simples e o custo é proporcional ao tamanho da matriz ou do arquivo de entrada. No entanto, se as matrizes forem muito grandes ou o arquivo de entrada for muito grande, o tempo de execução pode se tornar significativo.
+
+</div>
 
 
 
