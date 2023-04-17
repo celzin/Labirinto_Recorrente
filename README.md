@@ -42,9 +42,9 @@
     - ***as EXTREMIDADES da ESQUERDA (círculo laranja) e da DIREITA (círculo azul) funcionam como "portais"***;
     - ao saltar em um portal o jogador é teleportado para um lugar aleatório de outra matriz (com exceção de paredes);
     - ao chegar na extremidade esquerda o jogador volta para a matriz anterior;
-    - já ao chegar na extremidade direita o jogador avança para a matriz posterior;
+    - ao chegar na extremidade direita o jogador avança para a matriz posterior;
     - caso esteja na primeira matriz e encoste na extremidade esquerda o jogador pula para a última matriz;
-    - já caso esteja na útima matriz e encoste na extremidade direita o jogador pula para a primeira matriz;
+    - caso esteja na útima matriz e encoste na extremidade direita o jogador pula para a primeira matriz;
 </div>
 
 <p align="center">
