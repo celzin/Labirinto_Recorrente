@@ -86,6 +86,15 @@
 
 # 💡 Solução do Problema
 
+<div align="justify">
+O código contém algumas funções principais:
+  
+  - A função <code>printMatriz</code> recebe um objeto do tipo <code>Dados</code> como argumento e imprime na tela a matriz atual, a quantidade de vidas do jogador e a posição atual do jogador na matriz.
+  - A função <code>percorrerMatriz</code> recebe como argumentos um ponteiro para um objeto do tipo <code>Dados</code>, um ponteiro para um objeto do tipo <code>Espelho</code>, e três ponteiros inteiros que armazenam, respectivamente, a quantidade de itens coletados, a quantidade de perigos encontrados e a quantidade de vidas ganhas pelo jogador. A função é responsável por executar o loop principal do jogo, onde a cada iteração é gerado um número aleatório que indica a direção do próximo movimento do jogador. Dependendo da direção escolhida, o jogador pode se mover para uma nova posição na matriz, coletar itens, perder vidas, ou ser teleportado para um novo checkpoint na matriz. A cada iteração do loop, a função também atualiza a posição do jogador na matriz, verifica se o jogo acabou e, caso necessário, salva os dados da jogada em arquivos.
+
+
+</div>
+
 # 🎯 Conclusão
 
 ❓ Qual o custo computacional da sua estratégia randômica? Se mostrou uma boa alternativa de execução?
