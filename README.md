@@ -17,29 +17,29 @@
 ### Componentes do labirinto:
   
   - <b>🚧 Paredes (#)</b>
-    - | bloqueiam certos passos |
+    - ***bloqueiam certos passos***;
     - não há muito o que fazer contra elas a não ser desviar e continuar a rota.
   - <b>💣 Perigos (*)</b> => 
-    - | consomem parte de sua vida |
+    - ***consomem parte de sua vida***;
     - a cada passada, é subtraído 1 de vida (-💔) e os itens são zerados (-💰);
     - ao ficar sem pontos de vida o algoritmo deve parar e indicar fim de jogo;
     - os perigos são estáticos, não somem de lugar depois de serem caminhados.
   - <b>🛣️ Trajetórias</b> => 
-    - | valores positivos que devem ser subtraídos em 1 a cada passagem |
+    - ***valores positivos que devem ser subtraídos em 1 a cada passagem***;
     - caso o valor da casa seja 0 não existem itens para serem consumidos e nada é feito;
     - a regra para os "portais" é de escolha do aluno;
     - não é possível se "teletransportar" diretamente para uma parede em outra matriz; 
     - não é possível startar em um "portal" e já se "teletransportar";
     - é possível percorrer uma matriz mais de uma vez.
   - <b>💖 Vida</b> 
-    - o máximo de vidas é 10 (💕);
+    - ***o máximo de vidas é 10 (💕)***;
     - caso jogador obtenha 4 itens, estando com o máximo de vida a quantidade de itens é zerada.
   - <b>💰 Itens</b>
-    - a cada 4 itens coletados é ganho 1 de vida (+💖);
+    - ***a cada 4 itens coletados é ganho 1 de vida (+💖)***;
     - cada casa possui um valor (0 - 10) que consiste diretamente no quantidade de itens que possui;
     - caso a casa possua o valor 0 ela não possui itens.
   - <b>🌀 Portais</b>
-    - as extremidades da esquerda (portal laranja) e direita (portal azul) funcionam como "portais";
+    - ***as extremidades da esquerda (portal laranja) e direita (portal azul) funcionam como "portais"***;
     - ao chegar na extremidade esquerda o jogador volta para a matriz anterior;
     - já ao chegar na extremidade direita o jogador avança para a matriz posterior;
     - caso esteja na primeira matriz e encoste na extremidade esquerda o jogador pula para a última matriz;
