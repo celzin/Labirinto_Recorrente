@@ -90,6 +90,20 @@
 
 ❓ Qual o custo computacional da sua estratégia randômica? Se mostrou uma boa alternativa de execução?
 
+O código é composto por diversas funções que realizam diferentes tarefas, por isso, é necessário analisar separadamente o custo computacional de cada uma delas:
+
+A função tokenizarMatriz recebe uma string e uma posição da matriz e realiza a tokenização dos valores dessa posição, armazenando o valor na matriz e, se existir, no espelho. O custo dessa função é linear em relação ao tamanho da string, uma vez que utiliza a função strtok para realizar a tokenização.
+
+A função tokenizarLinha recebe uma string e dois ponteiros para inteiros e realiza a tokenização dessa string para obter os valores de n e m. O custo dessa função é linear em relação ao tamanho da string, pois utiliza a função strtok.
+
+A função readFile abre um arquivo e realiza a leitura do conteúdo, chamando as funções tokenizarLinha e tokenizarMatriz para obter os valores de n, m e da matriz. O custo dessa função é proporcional ao tamanho do arquivo, ou seja, linear em relação ao tamanho do arquivo.
+
+A função readCheckpoint abre um arquivo de checkpoint e realiza a leitura do conteúdo, chamando a função tokenizarLinha e tokenizarMatriz para obter os valores de n, m e da matriz. O custo dessa função é proporcional ao tamanho do arquivo de checkpoint, ou seja, linear em relação ao tamanho do arquivo.
+
+A função readCheckpointEspelho abre um arquivo de checkpoint e realiza a leitura do conteúdo, chamando a função tokenizarMatriz para obter os valores da matriz do espelho. O custo dessa função é proporcional ao tamanho do arquivo de checkpoint, ou seja, linear em relação ao tamanho do arquivo.
+
+Em resumo, o custo computacional do código acima é dominado pelas funções readFile e readCheckpoint, que possuem complexidade linear em relação ao tamanho dos arquivos de entrada. As outras funções possuem custo linear em relação ao tamanho da string de entrada. O código não apresenta laços ou estruturas de repetição que aumentam o custo computacional.
+
 # 🔄 Compilação e Execução
 
 <p align="justify">
