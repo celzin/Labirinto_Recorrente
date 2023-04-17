@@ -79,10 +79,14 @@
 
 📝 <b>Observação:</b> A intenção global do problema não é encontrar uma saída, mas sim, tentar consumir o máximo possível de itens até chegar a zerar as possibilidades desse tipo ou morrer tentando.
 
+</div>
+
+# 💡 Solução do Problema
+
+# 🎯 Conclusão
+
 ❓ Qual o custo computacional da sua estratégia randômica? Se mostrou uma boa alternativa de execução?
 
-</div>
-  
 # 🔄 Compilação e Execução
 
 <p align="justify">
