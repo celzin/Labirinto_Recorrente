@@ -16,13 +16,16 @@
   
 ### Componentes do labirinto:
   
-  - <b>🚧 Paredes (#)</b> => | bloqueiam certos passos |
+  - <b>🚧 Paredes (#)</b>
+    - | bloqueiam certos passos |
     - não há muito o que fazer contra elas a não ser desviar e continuar a rota.
-  - <b>💣 Perigos (*)</b> => | consomem parte de sua vida |
+  - <b>💣 Perigos (*)</b> => 
+    - | consomem parte de sua vida |
     - a cada passada, é subtraído 1 de vida (-💔) e os itens são zerados (-💰);
     - ao ficar sem pontos de vida o algoritmo deve parar e indicar fim de jogo;
     - os perigos são estáticos, não somem de lugar depois de serem caminhados.
-  - <b>🛣️ Trajetórias</b> => | valores positivos que devem ser subtraídos em 1 a cada passagem |
+  - <b>🛣️ Trajetórias</b> => 
+    - | valores positivos que devem ser subtraídos em 1 a cada passagem |
     - caso o valor da casa seja 0 não existem itens para serem consumidos e nada é feito;
     - a regra para os "portais" é de escolha do aluno;
     - não é possível se "teletransportar" diretamente para uma parede em outra matriz; 
