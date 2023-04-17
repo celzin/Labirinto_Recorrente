@@ -41,6 +41,12 @@
 <em>Imagem 1: Imagem representativa do labirinto.</em>
 </p>
 
+<div align="justify">
+
+2️⃣ Ao decorrer do jogo, a cada passo correto sob uma estrada, o garoto consome um item, subtraindo esse do valor que compõe a posição (x, y). Gravando nessa o valor resultante. A cada subtração bem sucedida é preciso, essa vai para um banco de vida que cheio (a cada 4 ações bem sucedidas) lhe retorna 1 de vida em seu contador. Contudo, pode haver partes do caminho com zero itens, esses devem continuar sendo utilizados, porém, sem computar pontuação.
+
+</div>
+
 <p align="center">
 <img src="imgs/esboço2.png" width="700"/> 
 </p>
@@ -49,7 +55,6 @@
 </p>
 
 <div align="justify">
-2️⃣ Ao decorrer do jogo, a cada passo correto sob uma estrada, o garoto consome um item, subtraindo esse do valor que compõe a posição (x, y). Gravando nessa o valor resultante. A cada subtração bem sucedida é preciso, essa vai para um banco de vida que cheio (a cada 4 ações bem sucedidas) lhe retorna 1 de vida em seu contador. Contudo, pode haver partes do caminho com zero itens, esses devem continuar sendo utilizados, porém, sem computar pontuação.
 
 3️⃣ O labirinto deve ser lido do arquivo [input.data](), o qual apresentará várias matrizes, todas quadráticas conforme já exposto. 
 
@@ -63,7 +68,7 @@
     🔹 (C) Quantas casas da matriz ficaram sem serem exploradas; 
     🔹 (D) Quantos perigos foram enfrentados ao decorrer do percurso.
 
-📝 <b>Observação:</b> Para essa atividade, considere selecionar um passo de cada vez de forma aleatória, ou seja, escolha um valor (x, y) aleatoriamente e vá para ele se possível ou descarte caso seja uma parede. Perigos não são evitados, então, se a posição escolhida for um, enfrente-o. Por fim, a intenção global do problema não é encontrar uma saída, mas sim, tentar consumir o máximo possível de itens até chegar a zerar as possibilidades desse tipo ou morrer tentando.
+📝 <b>Observação:</b> A intenção global do problema não é encontrar uma saída, mas sim, tentar consumir o máximo possível de itens até chegar a zerar as possibilidades desse tipo ou morrer tentando.
 
 ❓ Qual o custo computacional da sua estratégia randômica? Se mostrou uma boa alternativa de execução?
 
