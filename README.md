@@ -33,11 +33,11 @@
     - cada casa possui um valor (0 - 10) que consiste diretamente no quantidade de itens que possui;
     - caso a casa possua o valor 0 ela não possui itens.
   - <b>🌀 Portais</b>
-    - as extremidades direita e esquerda funcionam como "portais";
-    - ao chegar na extremidade esquerda (portal laranja) o jogador volta para a matriz anterior;
-    - já ao chegar na extremidade direita (portal azul) o jogador avança para a matriz posterior;
-    - caso esteja na primeira matriz e encoste na extremidade esquerda o player pula para a última matriz;
-    - já caso esteja na útima matriz e encoste na extremidade direita o player pula para a primeira matriz;
+    - as extremidades da esquerda (portal laranja) e direita (portal azul) funcionam como "portais";
+    - ao chegar na extremidade esquerda o jogador volta para a matriz anterior;
+    - já ao chegar na extremidade direita o jogador avança para a matriz posterior;
+    - caso esteja na primeira matriz e encoste na extremidade esquerda o jogador pula para a última matriz;
+    - já caso esteja na útima matriz e encoste na extremidade direita o jogador pula para a primeira matriz;
 </div>
 
 <p align="center">
