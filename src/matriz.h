@@ -7,7 +7,7 @@
 #include <time.h>
 #include <string.h>
 
-#define TAM 100
+#define TAM 1024
 #define PAREDE -1
 #define PERIGO -2
 
